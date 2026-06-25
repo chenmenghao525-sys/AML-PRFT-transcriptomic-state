@@ -18,6 +18,10 @@ The analyses use public or reused sources including TCGA-LAML, GEO validation co
 - `scripts/`: selected scripts supporting reproduction of processed analyses and major tables.
 - `metadata/`: locked Formula A files and formula provenance notes.
 - `supplementary/`: supplementary tables, figure-design tables, and source-data maps.
+  
+## Reproducibility note
+
+This repository provides processed tables, locked Formula A metadata, supplementary result tables, and selected analysis scripts to support inspection and partial reproduction of the major derived analyses reported in the manuscript. Large public raw datasets and third-party-derived matrices are not redistributed here. Some scripts may require users to download the corresponding public datasets and adjust local input paths according to the folder structure described above. This repository is therefore intended as a transparent processed-data and script archive rather than a fully containerized one-command reproduction environment.
 
 ## Processed data description
 
@@ -45,7 +49,7 @@ Higher BeatAML AUC values indicate lower ex vivo sensitivity / greater relative 
 
 ## Citation note
 
-The final repository record should be cited using its verified repository DOI or persistent identifier after deposition. Public third-party datasets and software should also be cited in the manuscript/reference manager after human verification.
+The final repository record should be cited using its verified repository DOI or persistent identifier after deposition. Public third-party datasets and software should also be cited in the manuscript/reference manager after human verification.  
 
 ## Contact
 

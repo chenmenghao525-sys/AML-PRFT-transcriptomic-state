@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-ROOT = Path(r"E:\ai助手\AML_PRFT_Human_Genomics_phase0_audit")
+ROOT = Path(r"source file retained outside public repository candidate")
 PHASE17 = ROOT / "17_supplementary_in_silico_perturbation_LOCKED_A"
 OUTDIR = PHASE17 / "drug_reversal_CMap_LINCS"
 MANUAL = OUTDIR / "manual_CMap_LINCS_outputs"
@@ -17,7 +17,7 @@ SUBDIRS = [
     "beataml_consistency_check",
     "supplementary_figures",
     "supplementary_tables",
-    "manuscript_text",
+    "text_notes",
     "reference_support",
     "risk_check",
     "logs",
@@ -131,7 +131,7 @@ def main() -> None:
             "item": "Locked Formula A model and inputs",
             "status": "unchanged",
             "source_file": str(ROOT / "00_LOCKED_FORMULA" / "README_formula_lock.md"),
-            "risk_note": "Formula B remains audit-only and was not used.",
+            "risk_note": "non-final exploratory formula variant remains audit-only and was not used.",
             "comment": "This Phase17B_v2 curation did not modify the locked Formula A model, gene list, coefficients, cutoff rule, training cohort, validation cohorts, main results, Methods, or manuscript conclusions.",
         },
         {
@@ -151,9 +151,9 @@ def main() -> None:
         {
             "item": "Main Results/Methods/manuscript text",
             "status": "unchanged",
-            "source_file": str(ROOT / "10_manuscript_rewriting_LOCKED_A" / "results" / "Results_draft_LOCKED_A_v1.txt") + "; " + str(ROOT / "13_methods_metadata_finalization_LOCKED_A" / "resolved_methods" / "Methods_draft_LOCKED_A_v2_metadata_resolved.txt"),
-            "risk_note": "Generated text is a draft insertion recommendation only.",
-            "comment": "No manuscript file was edited.",
+            "source_file": str(ROOT / "10_manuscript_rewriting_LOCKED_A" / "results" / "Results_note_LOCKED_A_v1.txt") + "; " + str(ROOT / "13_methods_metadata_finalization_LOCKED_A" / "resolved_methods" / "Methods_note_LOCKED_A_v2_metadata_resolved.txt"),
+            "risk_note": "Generated text was used as an internal insertion note and is not part of the public manuscript.",
+            "comment": "No public manuscript file is included in this repository candidate.",
         },
     ]
     write_csv(OUTDIR / "Phase17B_v2_boundary_check_LOCKED_A.csv", boundary_rows, ["item", "status", "source_file", "risk_note", "comment"])
@@ -502,10 +502,10 @@ def main() -> None:
         "SigCom reversers were derived from perturbational signature reversal of the locked Formula A PRFT-high signature, whereas BeatAML contributes ex vivo drug-response associations rather than clinical treatment-response evidence. "
         "Convergence between selected mechanism classes and lower BeatAML AUC in PRFT-high samples should therefore be viewed as hypothesis-generating support, and discordant or non-comparable results should remain visible rather than being forced into a single narrative. "
         "This layer cannot replace experimental validation. Future work should test candidate mechanisms in PRFT-high AML residual-like models using drug-response assays, ferroptosis rescue assays, lipid ROS, Fe2+ and MDA readouts, and markers including JAK2/STAT5/PD-L1 and SLC7A11/GPX4. "
-        "The analysis should avoid causal wording such as proved, confirmed, demonstrated causally, or restored ferroptosis sensitivity."
+        "The analysis should avoid causal wording such as causal, clinical-response, or therapeutic-efficacy wording."
     )
-    write_text(PHASE17 / "manuscript_text" / "Results_SigCom_BeatAML_supplementary_paragraph_Phase17B_v2.txt", results_para + "\n")
-    write_text(PHASE17 / "manuscript_text" / "Discussion_SigCom_BeatAML_supplementary_paragraph_Phase17B_v2.txt", discussion_para + "\n")
+    write_text(PHASE17 / "text_notes" / "Results_SigCom_BeatAML_supplementary_paragraph_Phase17B_v2.txt", results_para + "\n")
+    write_text(PHASE17 / "text_notes" / "Discussion_SigCom_BeatAML_supplementary_paragraph_Phase17B_v2.txt", discussion_para + "\n")
 
     ref_rows = [
         {"manuscript_location": "Supplementary Methods / SigCom LINCS query", "sentence_or_claim": "SigCom LINCS was used to query the locked Formula A PRFT-high signature for perturbational reversers.", "needed_reference_topic": "SigCom LINCS / LINCS perturbational signature query", "candidate_reference": "SigCom LINCS method/resource reference", "verification_status": "manual verification required", "claim_strength": "method provenance", "overclaim_risk": "moderate if used as biological evidence", "comment": "Do not invent DOI/PMID."},
@@ -521,8 +521,8 @@ def main() -> None:
 
     risk_rows = [
         ("Locked Formula A modification", "high", "Curation could be mistaken for a model update.", "State read-only curation.", "Formula A remained unchanged.", ""),
-        ("Formula B misuse", "high", "Formula B audit files exist.", "Do not use Formula B.", "Formula B was not used.", ""),
-        ("Old DEG misuse", "high", "Old/package DEG files exist.", "Use only Phase17A locked signature input and real SigCom export.", "No DEG rerun or old DEG use.", ""),
+        ("non-final exploratory formula variant misuse", "high", "non-final exploratory formula variant audit files exist.", "Do not use non-final exploratory formula variant.", "non-final exploratory formula variant was not used.", ""),
+        ("non-final upstream DEG misuse", "high", "Old/package DEG files exist.", "Use only Phase17A locked signature input and real SigCom export.", "No DEG rerun or non-final upstream DEG use.", ""),
         ("SigCom input signature written as result", "high", "Input list is not a reverser result.", "Separate input from exported TSV.", "Only exported Reversers TSV was curated as result.", ""),
         ("Mimickers written as Reversers", "high", "SigCom has multiple result types.", "Use only exported Reversers table.", "Only LINCS L1000 Chemical Perturbations Reversers were curated.", ""),
         ("SigCom/LINCS clinical efficacy overclaim", "high", "Reversers can be misread as drugs that work.", "Use hypothesis-generating reversal wording.", "Candidate perturbational reversers, not clinical efficacy predictions.", ""),

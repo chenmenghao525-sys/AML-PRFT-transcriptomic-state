@@ -1,16 +1,10 @@
-# Formula A lock
+# Locked Formula A metadata
 
-Formula A is the only final PRFT six-gene model.
+This directory preserves the locked six-gene Formula A model used for final reporting.
 
-Canonical source chain:
-- `phase1_six_gene_coefficients.csv`
-- `phase1_risk_score_formula.txt`
-- `phase1_runtime/07_signature/final_cross_platform_prft_signature_coefficients.csv`
+Public files:
+- `LOCKED_PRFT_six_gene_formula_A.txt`: plain-language locked formula note.
+- `LOCKED_PRFT_six_gene_formula_A_coefficients.csv`: locked gene list and coefficients.
+- `model_selection/phase3A_fix_original_6gene_vs_top_models.csv`: benchmarking comparison between the locked Formula A baseline and top-ranked survival-learning configurations.
 
-Deprecated / audit-only:
-- `03_results_tables/07_signature/final_cross_platform_prft_signature_coefficients.csv`
-
-Downstream analyses must read only:
-- `00_LOCKED_FORMULA/LOCKED_PRFT_six_gene_formula_A_coefficients.csv`
-
-Formula B is retained only for audit traceability and must not enter final results.
+Formula A was not modified during repository staging. The gene list, coefficients, and cutoff rule should be checked against the final manuscript before public release.

@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 
-ROOT = Path(r"E:\ai助手\AML_PRFT_Human_Genomics_phase0_audit")
+ROOT = Path(r"source file retained outside public repository candidate")
 PHASE17 = ROOT / "17_supplementary_in_silico_perturbation_LOCKED_A"
 
 SUBDIRS = [
@@ -16,7 +16,7 @@ SUBDIRS = [
     "beataml_consistency_check",
     "supplementary_figures",
     "supplementary_tables",
-    "manuscript_text",
+    "text_notes",
     "reference_support",
     "risk_check",
     "scripts",
@@ -127,7 +127,7 @@ def main() -> None:
             "item": "Locked Formula A model",
             "status": "unchanged",
             "source_file": str(ROOT / "00_LOCKED_FORMULA" / "README_formula_lock.md"),
-            "risk_note": "Formula B is audit-only and must not enter final results.",
+            "risk_note": "non-final exploratory formula variant is audit-only and must not enter final results.",
             "comment": "This Phase17A-lite preparation did not modify the locked Formula A model, gene list, coefficients, cutoff rule, training cohort, validation cohorts, main results, or manuscript conclusions.",
         },
         {
@@ -140,7 +140,7 @@ def main() -> None:
         {
             "item": "Main Results and Methods",
             "status": "unchanged",
-            "source_file": str(ROOT / "10_manuscript_rewriting_LOCKED_A" / "results" / "Results_draft_LOCKED_A_v1.txt") + "; " + str(ROOT / "13_methods_metadata_finalization_LOCKED_A" / "resolved_methods" / "Methods_draft_LOCKED_A_v2_metadata_resolved.txt"),
+            "source_file": str(ROOT / "10_manuscript_rewriting_LOCKED_A" / "results" / "Results_note_LOCKED_A_v1.txt") + "; " + str(ROOT / "13_methods_metadata_finalization_LOCKED_A" / "resolved_methods" / "Methods_note_LOCKED_A_v2_metadata_resolved.txt"),
             "risk_note": "This round generated only preparation artifacts.",
             "comment": "No manuscript text was edited.",
         },
@@ -182,7 +182,7 @@ def main() -> None:
             "uses_Formula_B": "no",
             "uses_old_DEG": "no",
             "eligible_for_CMap_signature": "yes" if eligible_deg else "no",
-            "reason": "Current Methods/Results describe this as the PRFT-high vs PRFT-low TCGA limma DEG table used in the locked Formula A manuscript workflow; no Formula B marker detected in file path/name/header.",
+            "reason": "Current Methods/Results describe this as the PRFT-high vs PRFT-low TCGA limma DEG table used in the locked Formula A manuscript workflow; no non-final exploratory formula variant marker detected in file path/name/header.",
             "comment": "Used as existing DEG result only; no differential expression rerun performed.",
         }
     ]
@@ -367,7 +367,7 @@ def main() -> None:
     write_csv(PHASE17 / "supplementary_tables" / "Supplementary_Table_Sx_CMap_BeatAML_minimal_design_Phase17A_lite.csv", tab_rows, ["table", "source", "status", "columns", "comment"])
 
     write_text(
-        PHASE17 / "manuscript_text" / "Phase17A_lite_text_insertion_boundary_recommendation.txt",
+        PHASE17 / "text_notes" / "Phase17A_lite_text_insertion_boundary_recommendation.txt",
         """Phase17A-lite text insertion boundary recommendation
 
 1. If the CMap/LINCS signature has been generated but no CMap output is available:
@@ -387,14 +387,14 @@ def main() -> None:
    - It can only be listed as future validation.
 
 5. Forbidden wording:
-   proved; confirmed; demonstrated causally; restored ferroptosis sensitivity; predicts clinical response; therapeutic efficacy.
+   avoid causal, clinical-response, or therapeutic-efficacy wording.
 """,
     )
 
     risk_rows = [
         ("Locked Formula A modification", "high", "Phase17A-lite could accidentally modify model inputs.", "Read-only use of locked coefficient file; no formula edits.", "Formula A remained unchanged.", ""),
-        ("Formula B misuse", "high", "Formula B/audit files exist in project.", "Do not use Formula B files for DEG/signature.", "Formula B was not used.", ""),
-        ("Old DEG misuse", "high", "Old/package DEG copies exist.", "Use only current checked DEG table.", "Signature was generated from the checked PRFT-high vs PRFT-low DEG table.", ""),
+        ("non-final exploratory formula variant misuse", "high", "non-final exploratory formula variant/audit files exist in project.", "Do not use non-final exploratory formula variant files for DEG/signature.", "non-final exploratory formula variant was not used.", ""),
+        ("non-final upstream DEG misuse", "high", "Old/package DEG copies exist.", "Use only current checked DEG table.", "Signature was generated from the checked PRFT-high vs PRFT-low DEG table.", ""),
         ("CMap signature mistaken for result", "high", "Upload-ready list is not CMap output.", "Label Panel C/result fields as pending.", "CMap/LINCS output has not been generated.", ""),
         ("CMap clinical overclaim", "high", "Drug reversal may be misread as efficacy.", "Use perturbational signature reversal only.", "Not a clinical efficacy prediction.", ""),
         ("BeatAML AUC direction inversion", "high", "Higher AUC could be called more sensitive.", "Lock wording in every artifact.", "Higher AUC = lower ex vivo sensitivity / greater relative resistance.", ""),

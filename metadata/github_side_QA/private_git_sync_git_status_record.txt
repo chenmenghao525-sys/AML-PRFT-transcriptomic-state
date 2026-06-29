@@ -1,179 +1,36 @@
-# Private Git Sync Git Status Record
+﻿Private Git Sync Git Status Record
+Generated: 2026-06-29 16:15:46 +08:00
 
-Generated: 2026-06-29 16:01:41
+Working copy: E:\ai助手\AML_PRFT_Human_Genomics_private_git_working
+.git exists: True
+Branch: main
+Remote origin: https://github.com/chenmenghao525-sys/AML-PRFT-Human-Genomics.git
+Status:
+## main...origin/main [ahead 2]
 
-Repository path: E:\ai助手\AML_PRFT_Human_Genomics_private_git_working
+HEAD: 1bfc509bb7c0c8eae951115ebc1e27dce373017d
+origin/main: 91888c73d385f3c28c500133767403787504d0af
+Ahead/behind HEAD...origin/main: 2	0
+Latest commit subject: Record private Git sync network blocker QA
+Local sync commit: 8b92f5984fc738500caff2ef7878757f82185062 (Sync clean v2 private QA candidate)
 
-## status_short_branch
-exit_code: 0
-stdout:
-```
-## main...origin/main
- M README.md
- D data/BeatAML_SigCom_consistency_check_Phase17B_v2.csv
- D data/CMap_LINCS_input_signature_LOCKED_A_Phase17A_lite.csv
- D data/GSE12417_GPL570_external_validation_risk_score.csv
- D data/GSE37642_GPL570_external_validation_risk_score.csv
- D data/SigCom_LINCS_reversal_results_curated_Phase17B_v2.csv
- D data/SigCom_LINCS_reversal_results_raw_imported_Phase17B_v2.csv
- D data/beataml_drug_sensitivity_summary.csv
- D data/beataml_high_low_risk_drug_response_difference_all.csv
- D data/beataml_risk_score_by_sample.csv
- D data/beataml_risk_score_drug_correlation_all.csv
- D data/combined_GPL570_external_validation_performance.csv
- D data/external_validation_main_results.csv
- D data/phase4_singlecell_cellstate_PRFT_summary_formula_A.csv
- D data/sc_celltype_score_summary.csv
- D data/sc_cluster_score_summary.csv
- D data/sc_signature_gene_coverage.csv
- D data/tcga_cross_platform_risk_score_by_sample.csv
- D metadata/Code_manifest_Phase27I_final.csv
- D metadata/Data_dictionary_Phase27I_final.csv
- D metadata/LOCKED_PRFT_six_gene_formula_A.txt
- D metadata/LOCKED_PRFT_six_gene_formula_A_coefficients.csv
- D metadata/README_formula_lock.md
- D metadata/final_numbering_lock/Phase27L_corrected_numbering_lock_to_manuscript_order.csv
- D metadata/final_numbering_lock/Phase27L_corrected_numbering_lock_to_manuscript_order.md
- D metadata/final_numbering_lock/Phase27M_supplementary_figure_number_conflict_resolution.md
- D metadata/final_numbering_lock/Phase27N_final_numbering_lock_summary.md
- D metadata/final_numbering_lock/Phase27O_final_package_numbering_status.md
- D metadata/final_numbering_lock/Phase27P_final_text_lock_summary.md
- D metadata/final_numbering_lock/Phase27Q_reference_verification_status.md
- D metadata/final_numbering_lock/Phase27R_reference_insertion_status.md
- D metadata/final_numbering_lock/Phase27S_author_revision_word_pack_status.md
- D metadata/final_numbering_lock/Phase27T_figure_supplement_inventory_status.md
- D metadata/final_numbering_lock/Phase27U_author_declarations_data_availability_status.md
- D metadata/final_numbering_lock/Phase27V_author_editing_start_pack_status.md
- D metadata/final_numbering_lock/Phase27W_formula_A_consistency_audit_status.md
- D metadata/final_numbering_lock/final_figure_supplement_numbering_lock_Phase27J.csv
- D metadata/final_numbering_lock/final_figure_supplement_numbering_lock_Phase27J.md
- D metadata/final_numbering_lock/public_release_action_items_Phase27J.md
- D metadata/final_numbering_lock/repository_private_QA_to_numbering_lock_report_Phase27J.md
- D metadata/model_selection/phase3A_fix_original_6gene_vs_top_models.csv
- D scripts/04_preprocess_tcga_laml_xena.R
- D scripts/09_calculate_prft_score_and_group.R
- D scripts/17_external_validation_cross_platform_signature_geo.R
- D scripts/20_beataml_drug_sensitivity_analysis.R
- D scripts/21_single_cell_prft_signature_localization.R
- D scripts/generate_phase17A_lite_cmap_beataml_prep.py
- D scripts/generate_phase17B_v2_sigcom_beataml_curation.py
- D scripts/phase1_run_reproduction.R
- D supplementary/Main_Figure_Original_Source_Map.csv
- D supplementary/Phase17C_SigCom_BeatAML_evidence_tier_table.csv
- D supplementary/Supplementary_Figure_Sx_SigCom_BeatAML_final_design_Phase17C.csv
- D supplementary/Supplementary_Table_S6_LOCKED_formula_A_coefficients.csv
- D supplementary/Supplementary_Table_Sx_SigCom_BeatAML_final_Phase17C.csv
- D supplementary/ml_benchmarking/Supplementary_Table_S8__phase3A_fix_model_ranking_composite_score.csv
- D supplementary/ml_benchmarking/phase3A_fix_model_performance_all.csv
- D supplementary/ml_benchmarking/phase3A_fix_model_performance_success_only.csv
- D supplementary/ml_benchmarking/phase3A_fix_model_plan_150.csv
- D supplementary/ml_benchmarking/phase3A_fix_model_ranking_composite_score.csv
-?? LICENSE_note.md
-?? code/
-?? docs/
-?? figures/
-?? metadata/Package_version_verification_Phase27I.csv
-?? metadata/code_manifest.csv
-?? metadata/code_manifest__dup2.csv
-?? metadata/code_manifest__dup3.csv
-?? metadata/data_dictionary.csv
-?? metadata/data_dictionary__dup2.csv
-?? metadata/final_file_manifest.csv
-?? metadata/formula_A/
-?? metadata/github_side_QA/
-?? metadata/pre_github_QA_v2/
-?? metadata/public_repo_candidate_v2_CHANGELOG.md
-?? metadata/repository_manifest.csv
-?? results/
-?? supplementary_tables/
-```
-stderr:
-```
-
-```
-
-## branch
-exit_code: 0
-stdout:
-```
-main
-```
-stderr:
-```
-
-```
-
-## remote_v
-exit_code: 0
-stdout:
-```
-origin	https://github.com/chenmenghao525-sys/AML-PRFT-Human-Genomics.git (fetch)
-origin	https://github.com/chenmenghao525-sys/AML-PRFT-Human-Genomics.git (push)
-```
-stderr:
-```
-
-```
-
-## log_last
-exit_code: 0
-stdout:
-```
-commit 91888c73d385f3c28c500133767403787504d0af (HEAD -> main, origin/main, origin/HEAD)
+Latest commit:
+commit 1bfc509bb7c0c8eae951115ebc1e27dce373017d (HEAD -> main)
 Author:     chenmenghao525-sys <chenmenghao525@gmail.com>
-AuthorDate: Sat Jun 27 22:53:19 2026 +0800
+AuthorDate: Mon Jun 29 16:08:46 2026 +0800
 Commit:     chenmenghao525-sys <chenmenghao525@gmail.com>
-CommitDate: Sat Jun 27 22:53:19 2026 +0800
+CommitDate: Mon Jun 29 16:11:31 2026 +0800
 
-    Add Phase27W Formula A consistency audit status
-    
-    Add Formula A consistency audit status. No model retraining, no formula modification, no public release, no Zenodo DOI, and no submission.
-```
-stderr:
-```
+    Record private Git sync network blocker QA
 
-```
+Push attempt status: failed_network_connection
+Push attempt output:
+git push origin main
+fatal: unable to access 'https://github.com/chenmenghao525-sys/AML-PRFT-Human-Genomics.git/': Failed to connect to github.com port 443 after 21147 ms: Could not connect to server
 
-## head
-exit_code: 0
-stdout:
-```
-91888c73d385f3c28c500133767403787504d0af
-```
-stderr:
-```
-
-```
-
-## upstream
-exit_code: 0
-stdout:
-```
-origin/main
-```
-stderr:
-```
-
-```
-
-## upstream_hash
-exit_code: 0
-stdout:
-```
-91888c73d385f3c28c500133767403787504d0af
-```
-stderr:
-```
-
-```
-
-## ahead_behind
-exit_code: 0
-stdout:
-```
-0	0
-```
-stderr:
-```
-
-```
+GitHub connectivity check:
+github.com TCP 443 succeeded: True
+github.com ping succeeded: False
+Remote private visibility live check: not verified because github.com:443 was unreachable from this environment.
+Repository visibility change actions taken: none.
+Release/Zenodo/Public actions taken: none.

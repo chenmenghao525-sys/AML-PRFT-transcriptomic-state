@@ -1,0 +1,24 @@
+1. GSE6891 local data exist: yes
+2. GSE14468 local data exist: yes
+3. GSE6891 expression matrix found: yes
+4. GSE14468 expression matrix found: yes
+5. GSE6891 survival information found: no
+6. GSE14468 survival information found: no
+7. GSE6891 usable samples / events: 0 / 0
+8. GSE14468 usable samples / events: 0 / 0
+9. GSE6891 six-gene availability count: 1
+10. GSE14468 six-gene availability count: 1
+11. GSE6891 risk_score calculated: no
+12. GSE14468 risk_score calculated: no
+13. GSE6891 HR/P/C-index/AUC1/3/5: not performed; insufficient model genes: 1/6 available (ITGB2) | no OS_time endpoint detected in local series_matrix | no OS_status endpoint detected in local series_matrix
+14. GSE14468 HR/P/C-index/AUC1/3/5: not performed; insufficient model genes: 1/6 available (ITGB2) | no OS_time endpoint detected in local series_matrix | no OS_status endpoint detected in local series_matrix
+15. GSE6891 suitable for main text: no
+16. GSE14468 suitable for main text: no
+17. If unsuitable, reason: insufficient model genes: 1/6 available (ITGB2) | no OS_time endpoint detected in local series_matrix | no OS_status endpoint detected in local series_matrix || insufficient model genes: 1/6 available (ITGB2) | no OS_time endpoint detected in local series_matrix | no OS_status endpoint detected in local series_matrix
+18. Overall performance of the fixed six-gene model across all external cohorts: Supported in GSE37642/GSE12417/combined GPL570, but GSE6891/GSE14468 remained audit-only because local endpoint and mapping compatibility were insufficient.
+19. Supports retaining the original six-gene model: yes
+20. Recommended main-text figures: phase6_all_cohort_HR_forestplot.pdf; phase6_all_cohort_AUC_comparison.pdf
+21. Recommended supplementary figures: phase6_GSE6891_KM.pdf; phase6_GSE14468_KM.pdf; phase6_GSE6891_timeROC.pdf; phase6_GSE14468_timeROC.pdf; phase6_all_cohort_Cindex_comparison.pdf
+22. Recommend entering AS input audit: yes, optional after this cohort audit
+23. Recommend entering full-manuscript integration Phase 9: yes, after manual review of the cohort-audit wording
+24. Manual confirmation needed: verify whether any non-series-matrix survival companion files for GSE6891/GSE14468 exist outside the current local project snapshot; if not, keep both cohorts as audit-only.

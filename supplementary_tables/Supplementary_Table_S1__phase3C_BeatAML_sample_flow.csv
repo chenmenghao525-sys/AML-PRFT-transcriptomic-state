@@ -1,0 +1,167 @@
+flow_level,drug_name,metric_name,metric_direction_note,beataml_expression_samples,beataml_drug_response_samples,matched_expression_drug_samples,total_drugs_observed,total_drugs_eligible_ge20,matched_samples,high_risk_samples,low_risk_samples,median_AUC,drug_category,eligible_for_testing
+overall,ALL_DRUGS,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,520,354,353,,ALL,TRUE
+per_drug,17-AAG (Tanespimycin),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,449,225,224,147.43606902934,HSP90_proteostasis,TRUE
+per_drug,A-674563,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,461,233,228,132.700413023999,Uncategorized,TRUE
+per_drug,ABT-737,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,236,120,116,188.278760018266,Uncategorized,TRUE
+per_drug,AGI-5198,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,299,154,145,249.260910075194,Uncategorized,TRUE
+per_drug,AGI-6780,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,297,154,143,244.878529943148,Uncategorized,TRUE
+per_drug,AT7519,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,446,227,219,131.354924864056,Uncategorized,TRUE
+per_drug,AZD1152-HQPA (AZD2811),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,455,229,226,223.668706332296,Uncategorized,TRUE
+per_drug,AZD1480,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,456,230,226,229.222594183236,Uncategorized,TRUE
+per_drug,Afatinib (BIBW-2992),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,459,232,227,167.010091123719,Uncategorized,TRUE
+per_drug,Alisertib (MLN8237),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,459,232,227,235.191485112265,Uncategorized,TRUE
+per_drug,Axitinib (AG-013736),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,476,237,239,197.058913822239,Uncategorized,TRUE
+per_drug,Azacytidine,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,367,185,182,240.973193465397,Uncategorized,TRUE
+per_drug,BEZ235,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,449,222,227,140.878234449753,Uncategorized,TRUE
+per_drug,BMS-345541,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,462,231,231,237.431986418826,Uncategorized,TRUE
+per_drug,Bay 11-7085,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,343,173,170,260.66303104216,Uncategorized,TRUE
+per_drug,Bortezomib (Velcade),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,463,233,230,153.294825793792,Proteasome,TRUE
+per_drug,Bosutinib (SKI-606),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,456,230,226,210.16973313245,Uncategorized,TRUE
+per_drug,CHIR-99021,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,457,228,229,277.339516950295,Uncategorized,TRUE
+per_drug,CI-1040 (PD184352),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,461,233,228,189.178067194192,Uncategorized,TRUE
+per_drug,CYT387,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,455,228,227,172.076915865736,Uncategorized,TRUE
+per_drug,Cabozantinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,450,226,224,172.53406842106,Uncategorized,TRUE
+per_drug,Canertinib (CI-1033),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,455,229,226,221.130592287165,Uncategorized,TRUE
+per_drug,Cediranib (AZD2171),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,454,229,225,256.75206228714,Uncategorized,TRUE
+per_drug,Crenolanib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,446,227,219,219.925965848311,FLT3_related,TRUE
+per_drug,Crizotinib (PF-2341066),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,470,237,233,197.476333380472,Uncategorized,TRUE
+per_drug,Cytarabine,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,329,168,161,196.281507198413,AML_chemotherapy_related,TRUE
+per_drug,DBZ,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,366,185,181,239.779112316156,Uncategorized,TRUE
+per_drug,Dasatinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,493,248,245,174.582846019451,Uncategorized,TRUE
+per_drug,Doramapimod (BIRB 796),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,454,228,226,171.740124717853,Uncategorized,TRUE
+per_drug,Dovitinib (CHIR-258),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,455,230,225,153.99363644563,Uncategorized,TRUE
+per_drug,Elesclomol,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,431,210,221,35.7529331815675,Uncategorized,TRUE
+per_drug,Erlotinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,485,243,242,226.073011368368,Uncategorized,TRUE
+per_drug,Flavopiridol,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,451,226,225,111.387388414001,Uncategorized,TRUE
+per_drug,Foretinib (XL880),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,230,223,116.631309523307,Uncategorized,TRUE
+per_drug,GDC-0879,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,456,231,225,284.300595059661,Uncategorized,TRUE
+per_drug,GDC-0941,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,424,220,204,143.451673329767,Uncategorized,TRUE
+per_drug,GSK-1838705A,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,228,225,212.840629354296,Uncategorized,TRUE
+per_drug,GSK-1904529A,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,226,226,248.743523803259,Uncategorized,TRUE
+per_drug,GSK690693,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,447,224,223,242.453604406434,Uncategorized,TRUE
+per_drug,GW-2580,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,440,223,217,206.307195536707,Uncategorized,TRUE
+per_drug,Gefitinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,466,239,227,238.627765970361,Uncategorized,TRUE
+per_drug,H-89,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,413,208,205,234.132617441338,Uncategorized,TRUE
+per_drug,INK-128,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,458,232,226,120.228974631325,Uncategorized,TRUE
+per_drug,Ibrutinib (PCI-32765),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,438,216,222,197.890623278673,Uncategorized,TRUE
+per_drug,Idelalisib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,444,227,217,195.558401734355,PI3K_AKT_mTOR,TRUE
+per_drug,Imatinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,505,253,252,234.33876468907,Uncategorized,TRUE
+per_drug,JAK Inhibitor I,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,448,226,222,176.696489007477,JAK_STAT_related,TRUE
+per_drug,JNJ-28312141,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,316,161,155,147.482359551636,Uncategorized,TRUE
+per_drug,JNJ-38877605,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,454,227,227,237.394018874014,Uncategorized,TRUE
+per_drug,JNJ-7706621,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,457,229,228,238.48360663681,Uncategorized,TRUE
+per_drug,JQ1,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,348,178,170,144.621097750765,Uncategorized,TRUE
+per_drug,KI20227,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,405,203,202,183.688955016413,Uncategorized,TRUE
+per_drug,KU-55933,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,227,226,243.760488827763,Uncategorized,TRUE
+per_drug,KW-2449,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,449,229,220,212.521681490817,Uncategorized,TRUE
+per_drug,LY-333531,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,415,208,207,213.040003663864,Uncategorized,TRUE
+per_drug,Lapatinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,464,231,233,227.49414832599,Uncategorized,TRUE
+per_drug,Lenvatinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,343,175,168,166.851415037888,Uncategorized,TRUE
+per_drug,Linifanib (ABT-869),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,226,227,193.636276287563,Uncategorized,TRUE
+per_drug,MGCD-265,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,448,223,225,210.431551051471,Uncategorized,TRUE
+per_drug,MK-2206,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,448,221,227,210.043602537848,Uncategorized,TRUE
+per_drug,MLN120B,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,230,223,242.867272005682,Uncategorized,TRUE
+per_drug,MLN8054,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,226,226,255.132941392379,Uncategorized,TRUE
+per_drug,Masitinib (AB-1010),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,448,224,224,206.505232329976,Uncategorized,TRUE
+per_drug,Midostaurin,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,462,225,237,203.4442096329,FLT3_related,TRUE
+per_drug,Motesanib (AMG-706),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,450,225,225,233.881520503969,Uncategorized,TRUE
+per_drug,NF-kB Activation Inhibitor,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,441,221,220,203.86742738351,Uncategorized,TRUE
+per_drug,NVP-ADW742,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,444,220,224,219.225555583303,Uncategorized,TRUE
+per_drug,NVP-TAE684,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,451,227,224,194.569463680906,Uncategorized,TRUE
+per_drug,Neratinib (HKI-272),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,229,224,156.280616322459,Uncategorized,TRUE
+per_drug,Nilotinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,472,236,236,231.291976176763,Uncategorized,TRUE
+per_drug,Nutlin 3a,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,323,165,158,252.901658793023,Uncategorized,TRUE
+per_drug,PD173955,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,223,230,194.385987674784,Uncategorized,TRUE
+per_drug,PHA-665752,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,229,223,217.598432894206,Uncategorized,TRUE
+per_drug,PHT-427,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,448,223,225,276.373812404412,Uncategorized,TRUE
+per_drug,PI-103,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,225,227,136.731352254563,Uncategorized,TRUE
+per_drug,PP242,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,458,230,228,132.310087806404,Uncategorized,TRUE
+per_drug,PRT062607,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,447,225,222,198.155838811589,Uncategorized,TRUE
+per_drug,Pazopanib (GW786034),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,467,235,232,215.62071116059,Uncategorized,TRUE
+per_drug,Pelitinib (EKB-569),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,229,223,157.693285569616,Uncategorized,TRUE
+per_drug,Ponatinib (AP24534),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,301,159,142,134.868855630538,Uncategorized,TRUE
+per_drug,Quizartinib (AC220),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,461,232,229,147.31455897533,FLT3_related,TRUE
+per_drug,RAF265 (CHIR-265),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,450,223,227,158.215715430313,Uncategorized,TRUE
+per_drug,Rapamycin,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,466,233,233,167.067311021233,PI3K_AKT_mTOR,TRUE
+per_drug,Regorafenib (BAY 73-4506),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,450,226,224,182.416233959709,Uncategorized,TRUE
+per_drug,Roscovitine (CYC-202),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,462,232,230,263.673506755809,Uncategorized,TRUE
+per_drug,Ruxolitinib (INCB018424),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,449,232,217,229.538373337381,JAK_STAT_related,TRUE
+per_drug,S31-201,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,403,201,202,234.540675599793,Uncategorized,TRUE
+per_drug,SB-431542,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,459,232,227,254.559628171906,Uncategorized,TRUE
+per_drug,SGX-523,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,453,231,222,253.900811473812,Uncategorized,TRUE
+per_drug,SNS-032 (BMS-387032),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,458,231,227,90.260155001025,Uncategorized,TRUE
+per_drug,STO609,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,415,209,206,261.288368500465,Uncategorized,TRUE
+per_drug,SU11274,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,402,202,200,217.204188959535,Uncategorized,TRUE
+per_drug,Saracatinib (AZD0530),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,450,225,225,217.483067958429,Uncategorized,TRUE
+per_drug,Selumetinib (AZD6244),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,456,230,226,199.713863794015,MEK_MAPK_related,TRUE
+per_drug,Sorafenib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,494,248,246,194.5619941601,FLT3_related,TRUE
+per_drug,Sunitinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,488,242,246,202.333661425027,Uncategorized,TRUE
+per_drug,TG100-115,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,451,230,221,245.538111269471,Uncategorized,TRUE
+per_drug,Tivozanib (AV-951),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,448,224,224,171.772962997704,Uncategorized,TRUE
+per_drug,Tofacitinib (CP-690550),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,458,230,228,222.372425634489,JAK_STAT_related,TRUE
+per_drug,Tozasertib (VX-680),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,458,231,227,218.331978534256,Uncategorized,TRUE
+per_drug,Trametinib (GSK1120212),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,484,242,242,122.366471101098,MEK_MAPK_related,TRUE
+per_drug,VX-745,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,457,231,226,200.656227894261,Uncategorized,TRUE
+per_drug,Vandetanib (ZD6474),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,481,240,241,227.871701649376,Uncategorized,TRUE
+per_drug,Vargetef,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,223,229,180.082683046554,Uncategorized,TRUE
+per_drug,Vatalanib (PTK787),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,452,225,227,223.544858908915,Uncategorized,TRUE
+per_drug,Vemurafenib (PLX-4032),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,358,184,174,252.176167676339,Uncategorized,TRUE
+per_drug,Venetoclax,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,367,182,185,159.030075709421,BCL2_apoptosis,TRUE
+per_drug,Vismodegib (GDC-0449),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,457,227,230,283.931125150834,Uncategorized,TRUE
+per_drug,Volasertib (BI-6727),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,349,175,174,159.530387719792,Uncategorized,TRUE
+per_drug,XAV-939,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,270,138,132,259.732171429086,Uncategorized,TRUE
+per_drug,YM-155,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,459,231,228,245.709011563872,Uncategorized,TRUE
+per_drug,AKT Inhibitor IV,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,83,44,39,127.827423265914,PI3K_AKT_mTOR,TRUE
+per_drug,AMPK Inhibitor,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,43,42,224.364573107252,Uncategorized,TRUE
+per_drug,BI-2536,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,110,56,54,158.96114478123,Uncategorized,TRUE
+per_drug,Go6976,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,44,41,193.140815636004,Uncategorized,TRUE
+per_drug,JNK Inhibitor II,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,82,42,40,207.044285737771,Uncategorized,TRUE
+per_drug,KN92,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,43,42,241.6019477915,Uncategorized,TRUE
+per_drug,KN93,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,86,44,42,242.657868333268,Uncategorized,TRUE
+per_drug,LY294002,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,86,44,42,160.468847719178,Uncategorized,TRUE
+per_drug,PLX-4720,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,88,45,43,228.030760095328,Uncategorized,TRUE
+per_drug,PP2,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,44,41,224.856189036552,Uncategorized,TRUE
+per_drug,SB-202190,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,43,42,206.444465418601,Uncategorized,TRUE
+per_drug,SB-203580,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,43,42,209.436375108576,Uncategorized,TRUE
+per_drug,Staurosporine,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,89,45,44,197.706053664602,Uncategorized,TRUE
+per_drug,TG101348,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,42,43,158.559456687597,Uncategorized,TRUE
+per_drug,Tandutinib (MLN518),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,83,41,42,205.69913171542,Uncategorized,TRUE
+per_drug,p38 MAP Kinase Inhibitor,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,43,42,233.416859994002,Uncategorized,TRUE
+per_drug,Artemisinin,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,196,97,99,265.751424647036,Uncategorized,TRUE
+per_drug,Entospletinib (GS-9973),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,313,158,155,183.140242394636,Uncategorized,TRUE
+per_drug,Entrectinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,215,106,109,183.498734563761,Uncategorized,TRUE
+per_drug,Gilteritinib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,278,142,136,140.961059725853,FLT3_related,TRUE
+per_drug,Lenalidomide,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,265,135,130,251.353425878861,Uncategorized,TRUE
+per_drug,Lovastatin,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,134,66,68,238.756541399676,Uncategorized,TRUE
+per_drug,OTX-015,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,292,153,139,133.544866189135,Uncategorized,TRUE
+per_drug,Palbociclib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,295,152,143,235.047948525066,Uncategorized,TRUE
+per_drug,Panobinostat,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,286,149,137,70.6257028982952,HDAC_epigenetic,TRUE
+per_drug,SR9011,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,266,132,134,255.792443020317,Uncategorized,TRUE
+per_drug,Selinexor,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,241,120,121,96.8388895540708,Uncategorized,TRUE
+per_drug,Lestaurtinib (CEP-701),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,84,42,42,170.218497267999,Uncategorized,TRUE
+per_drug,MEK1/2 Inhibitor,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,4,4,0,235.633436189246,MEK_MAPK_related,FALSE
+per_drug,PD153035,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,4,4,0,239.209947380453,Uncategorized,FALSE
+per_drug,PD98059,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,4,4,0,250.826079237512,Uncategorized,FALSE
+per_drug,R406,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,4,4,0,233.762734146097,Uncategorized,FALSE
+per_drug,R547,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,4,4,0,175.983078416682,Uncategorized,FALSE
+per_drug,SYK Inhibitor,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,4,4,0,218.873954972738,Uncategorized,FALSE
+per_drug,AKT Inhibitor X,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,2,2,0,247.738199425835,PI3K_AKT_mTOR,FALSE
+per_drug,AST-487,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,2,2,0,285.447260909167,Uncategorized,FALSE
+per_drug,PRT062070,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,2,2,0,233.918718526343,Uncategorized,FALSE
+per_drug,SU14813,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,2,2,0,236.657090399996,Uncategorized,FALSE
+per_drug,Olaparib,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,148,70,78,276.074535427084,Uncategorized,TRUE
+per_drug,AT-101,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,85,38,47,202.168836266413,Uncategorized,TRUE
+per_drug,BLZ945,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,45,21,24,186.645803201827,Uncategorized,TRUE
+per_drug,BMS-754807,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,41,20,21,229.098681016022,Uncategorized,TRUE
+per_drug,Baiclein,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,45,22,23,276.9623384081,Uncategorized,TRUE
+per_drug,Birinapant,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,86,38,48,144.772525534298,Uncategorized,TRUE
+per_drug,Etomoxir,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,44,22,22,252.753334362196,Uncategorized,TRUE
+per_drug,GSK-2879552,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,84,37,47,266.174537199476,Uncategorized,TRUE
+per_drug,Indisulam,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,117,61,56,184.5945847737,Uncategorized,TRUE
+per_drug,Metformin,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,43,22,21,267.841561637399,Uncategorized,TRUE
+per_drug,NVP-AEW541,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,44,20,24,225.244459654867,Uncategorized,TRUE
+per_drug,PH-797804,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,45,21,24,140.572780214718,Uncategorized,TRUE
+per_drug,Ralimetinib (LY2228820),auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,42,20,22,143.08209736771,Uncategorized,TRUE
+per_drug,Ranolazine,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,45,22,23,225.425172097771,Uncategorized,TRUE
+per_drug,XMD 8-87,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,45,21,24,210.033145007565,Uncategorized,TRUE
+per_drug,Perhexiline maleate,auc,Higher AUC indicates lower ex vivo sensitivity / greater relative resistance.,707,542,520,165,155,37,18,19,166.872843040227,Uncategorized,TRUE

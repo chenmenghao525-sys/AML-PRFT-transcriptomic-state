@@ -1,0 +1,20 @@
+1. paperspine-skill called or equivalently executed: yes, paper-spine-citation principles used; candidate support bank generated as phase10A_reference_candidate_table.csv
+2. nature-skill called or equivalently executed: yes, nature-citation and nature-polishing rules loaded and applied
+3. Reference candidate table generated: yes
+4. Final reference table generated: yes
+5. DOI/PMID verification completed: yes, via Crossref/PubMed where available
+6. needs_manual_verification count: 1 in final numbered references; 10 in candidate table
+7. Manuscript citations inserted: yes
+8. Remaining REFERENCE NEEDED: 0
+9. Nature-style polished manuscript generated: yes
+10. Language boundary audit passed: yes
+11. Forbidden term hit count: 0
+12. Fixed six-gene main model retained: yes
+13. AS deletion retained: yes
+14. processed single-cell boundary retained: yes
+15. bulk signature-based inference boundary retained: yes
+16. BeatAML ex vivo association boundary retained: yes
+17. Recommend entering Figure 1-7 formal assembly: yes
+18. Recommend entering Human Genomics submission package preparation: yes, after remaining reference/manual confirmation items are resolved
+19. Human confirmation needed: one final method reference metadata item (SHAP/NeurIPS), author contributions, funding, competing interests, repository URLs, final figure plates, cover letter
+20. Overall conclusion: references and prose are substantially improved; remaining gaps are manual verification and submission metadata, not data-core issues.

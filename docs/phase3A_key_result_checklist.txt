@@ -1,0 +1,28 @@
+1. Planned model combinations: 150
+2. Successfully fitted models: 56
+3. Failed models: 94
+4. Algorithm with most failures: CoxBoost
+5. Feature strategy with most failures: FS12_PPI_top20
+6. Original 6-gene model composite-score best rank: 6
+7. Top-ranked model: M044
+8. Top-ranked algorithm: LASSO-Cox
+9. Top-ranked feature strategy: FS05_unicox_top25
+10. Top-ranked model gene count: 6
+11. Top-ranked model gene list: CLCN5;ITGB2;ARHGEF5;TRIM32;SAT1;ACOX2
+12. Top-ranked model TCGA C-index: 0.664
+13. Top-ranked model GSE37642 C-index: 0.594
+14. Top-ranked model GSE12417 C-index: 0.619
+15. Top-ranked model combined GPL570 C-index: 0.603
+16. Top-ranked model combined GPL570 HR, P value: 3.043, 1.59e-04
+17. Original 6-gene model TCGA C-index: 0.665
+18. Original 6-gene model GSE37642 C-index: 0.593
+19. Original 6-gene model GSE12417 C-index: 0.613
+20. Original 6-gene model combined GPL570 C-index: 0.602
+21. Original 6-gene model combined GPL570 HR, P value: 2.561, 2.41e-04
+22. Recommend retaining original 6-gene model as main model: yes
+23. If not, recommended alternative and reason: No automatic replacement. Original 6-gene model remains simpler and biologically interpretable; replacement requires manual discussion unless top model shows clear external validation improvement.
+24. Obvious training-set overfitting models: Models with TCGA C-index high but mean external C-index near or below 0.55 should be treated as overfitting candidates; see ranking table.
+25. Models suitable only for supplementary materials: package-unavailable algorithms, FS12_PPI_top20, and models without consistent external HR direction.
+26. Results suitable for main-text Figure 4: model performance heatmap, top-20 ranking plot, original 6-gene versus top-model comparison, and external validation stability bubbleplot.
+27. Recommend entering Phase 3B: yes, after manual review of whether the original 6-gene model should remain the main model.
+28. Issues requiring manual confirmation: unavailable survival-ML packages were not installed in this run; FS12 PPI requires Phase 5/PPI ranking; C-index/AUC estimates in small GEO cohorts should be interpreted conservatively.

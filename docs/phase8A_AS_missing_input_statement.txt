@@ -1,0 +1,5 @@
+1. The current local project package does not contain a matched PSI-level matrix or other formal AS event matrix suitable for alternative splicing analysis.
+2. Ordinary gene-expression matrices were found for TCGA-LAML, but they cannot be treated as AS data and cannot replace PSI/event-level inputs.
+3. Therefore, the present project cannot claim that an alternative splicing analysis has been completed.
+4. If an AS module is pursued later, TCGA SpliceSeq LAML PSI data or dedicated rMATS/MAJIQ/SUPPA/Whippet outputs should be obtained separately and matched to PRFT risk score and OS information.
+5. To preserve analytical credibility, the current manuscript can omit the AS module rather than adding a weak or unsupported splicing section.

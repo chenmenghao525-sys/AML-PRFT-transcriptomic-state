@@ -1,0 +1,6 @@
+﻿file_path,status,absolute_path_hits,risk_level,action_recommended
+README.md,pass_repository_relative,0,low,no action
+metadata/repository_manifest.csv,pass_repository_relative,0,low,no action
+metadata/data_dictionary.csv,pass_repository_relative,0,low,no action
+metadata/code_manifest.csv,pass_repository_relative,0,low,no action
+metadata/final_file_manifest.csv,pass_repository_relative,0,low,no action

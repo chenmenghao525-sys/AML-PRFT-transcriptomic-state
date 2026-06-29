@@ -1,0 +1,21 @@
+1. TCGA samples used for PRFT-high/low classification: 173
+2. PRFT-high samples: 87
+3. PRFT-low samples: 86
+4. Successful classification algorithms: Elastic Net Logistic Regression; GBM; Logistic Regression baseline; Naive Bayes; Random Forest; SVM radial; kNN
+5. Failed algorithms and reasons: CatBoost: Required package unavailable: catboost || LightGBM: Required package unavailable: lightgbm || XGBoost: Required package unavailable: xgboost
+6. Best model: Elastic Net Logistic Regression
+7. Best model feature set: FS-F_core_axis_explanatory_genes
+8. Best model TCGA CV AUROC: 0.980
+9. Best model TCGA CV AUPRC: 0.982
+10. Best model F1: 0.939
+11. Best model MCC: 0.874
+12. External GEO state-recognition validation completed: yes
+13. External validation AUROC/AUPRC if available: GSE37642 Elastic Net Logistic Regression+FS-F_core_axis_explanatory_genes AUROC=0.869, AUPRC=0.878 | GSE12417 Elastic Net Logistic Regression+FS-F_core_axis_explanatory_genes AUROC=0.831, AUPRC=0.835 | combined_GPL570 Elastic Net Logistic Regression+FS-F_core_axis_explanatory_genes AUROC=0.846, AUPRC=0.847 | GSE37642 SVM radial+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.464 | GSE12417 SVM radial+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.482 | combined_GPL570 SVM radial+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.483 | GSE37642 Logistic Regression baseline+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.464 | GSE12417 Logistic Regression baseline+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.482 | combined_GPL570 Logistic Regression baseline+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.483 | GSE37642 GBM+FS-F_core_axis_explanatory_genes AUROC=0.493, AUPRC=0.470 | GSE12417 GBM+FS-F_core_axis_explanatory_genes AUROC=0.500, AUPRC=0.491 | combined_GPL570 GBM+FS-F_core_axis_explanatory_genes AUROC=0.504, AUPRC=0.495 | GSE37642 Random Forest+FS-F_core_axis_explanatory_genes AUROC=0.493, AUPRC=0.457 | GSE12417 Random Forest+FS-F_core_axis_explanatory_genes AUROC=0.487, AUPRC=0.471 | combined_GPL570 Random Forest+FS-F_core_axis_explanatory_genes AUROC=0.491, AUPRC=0.472
+14. SHAP completed: no; permutation-importance fallback used
+15. Top 10 SHAP/fallback genes: AIFM2; HSPA1A; HSPA5; NFE2L2; ATF4; BCL2L1; CALR; CANX; CD274; CISD1
+16. Original 6 genes in SHAP/fallback top 10: none
+17. Original 6 genes overall importance ranks are forward: partial/no
+18. Phase3A high-frequency genes and Phase3B important genes consistent: partial/no
+19. Recommend placing Phase3B in main Figure 4 or Figure 5: yes, as an interpretability/state-recognition panel with circularity caveat.
+20. Recommend entering Phase 3C: yes, after manual review of SHAP fallback and external GEO label approximation.
+21. Issues requiring manual confirmation: Exact SHAP not run because xgboost/catboost/fastshap/SHAPforxgboost were unavailable; permutation importance from the best available tree model is reported as an interpretable fallback. GEO PRFT labels use approximate within-cohort gene-set scoring; FS-F is label-proximal and should not be described as independent causal evidence.

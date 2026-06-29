@@ -1,0 +1,11 @@
+1. 是否完成核心signature/pathway主文表：是
+2. 是否标记downplay/supplement结果：是
+3. 是否修正immune deconvolution语言：是
+4. 是否生成主文Figure建议：是
+5. 是否生成cleaned consistency panel：是
+6. 是否保留monocyte/myeloid主线：是
+7. 是否保留JAK/STAT/PD-L1主线：是
+8. 是否保留oxidative stress/NRF2主线：是
+9. 是否避免LSC主导表述：是
+10. 是否建议进入Phase 9全文整合：是
+11. 需要人工确认的问题：如果主文版面紧张，建议在 phase7_pathway_activity_heatmap 与 phase7_cleanup_core_signature_consistency_panel 之间二选一；phase7_PRFT_myeloid_deconvolution_boxplots 不建议以现文件名进入主文。

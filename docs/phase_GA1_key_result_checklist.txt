@@ -1,0 +1,18 @@
+1. Current GA problem audit generated: yes
+2. New Graphical Abstract PDF generated: yes
+3. New Graphical Abstract PNG generated: yes
+4. New Graphical Abstract SVG generated: yes
+5. New Graphical Abstract PPTX generated: yes
+6. Graphical Abstract caption generated: yes
+7. Main figure original source map generated: yes
+8. Figure source archive generated: yes, archived files: 55
+9. Main figure assembly principles generated: yes
+10. GA text readability: pass
+11. GA arrow alignment: pass
+12. GA boundary wording: pass
+13. GA clinical overstatement avoided: yes
+14. GA mechanism overstatement avoided: yes
+15. Main figure source files preserved: yes
+16. Any source files missing: no
+17. Data-core rework needed: no
+18. Overall conclusion: GA-1 generated a submission-oriented Graphical Abstract and locked the best available high-resolution/vector source map for Figure 1-7 without modifying manuscript text, figure composites, statistics, references, cover letter or declarations.

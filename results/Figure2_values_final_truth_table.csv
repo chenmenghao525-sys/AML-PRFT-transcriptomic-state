@@ -1,0 +1,21 @@
+﻿value_name,final_truth_value,truth_basis
+CLCN5 coefficient,0.1889,locked/final table plus accepted panel
+ARHGEF5 coefficient,0.1285,locked/final table plus accepted panel
+TRIM32 coefficient,0.09329,locked/final table plus accepted panel
+ITGB2 coefficient,0.09189,locked/final table plus accepted panel
+SAT1 coefficient,0.0836,locked/final table plus accepted panel
+ACOX2 coefficient,0.03665,locked/final table plus accepted panel
+TCGA KM log-rank P,3.75e-06,locked/final table plus accepted panel
+TCGA ROC AUC 1-year,0.780,locked/final table plus accepted panel
+TCGA ROC AUC 2-year,0.767,locked/final table plus accepted panel
+TCGA ROC AUC 3-year,0.749,locked/final table plus accepted panel
+TCGA Cox HR,3.17,locked/final table plus accepted panel
+GSE37642 KM log-rank P,2.33e-01,locked/final table plus accepted panel
+GSE37642 ROC AUC 1-year,0.594,locked/final table plus accepted panel
+GSE37642 ROC AUC 2-year,0.578,locked/final table plus accepted panel
+GSE37642 ROC AUC 3-year,0.608,locked/final table plus accepted panel
+GSE12417 KM log-rank P,1.98e-02,locked/final table plus accepted panel
+GSE12417 ROC AUC 1-year,0.594,locked/final table plus accepted panel
+GSE12417 ROC AUC 2-year,0.604,locked/final table plus accepted panel
+GSE12417 ROC AUC 3-year,0.614,locked/final table plus accepted panel
+Combined GPL570 KM log-rank P,1.97e-02,locked/final table plus accepted panel

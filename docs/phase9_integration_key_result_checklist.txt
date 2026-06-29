@@ -1,0 +1,19 @@
+1. Human Genomics manuscript structure generated: yes
+2. Results draft generated: yes
+3. Methods draft generated: yes
+4. Discussion framework generated: yes
+5. Figure mapping completed: yes
+6. AS module excluded: yes
+7. phase4_UMAP placeholder figures excluded: yes
+8. processed single-cell table-based wording retained: yes
+9. bulk signature-based inference wording retained: yes
+10. fixed six-gene main model retained: yes
+11. PPI downgraded to supporting network-level evidence: yes
+12. BeatAML limited to ex vivo association: yes
+13. Language boundary audit completed: yes; forbidden-term hit rows=0
+14. Recommended main figure entries: 11
+15. Supplement figure entries: 4
+16. Must complete before submission: references; final figure assembly; data/code availability; journal formatting; manual visual QA.
+17. Recommended before submission: wet-lab validation plan; graphical abstract; updated cover letter; supplementary table consolidation.
+18. Recommend starting full manuscript writing: yes
+19. Recommend preparing Human Genomics submission package: yes, after final references, captions, availability statements and figure plates are completed.

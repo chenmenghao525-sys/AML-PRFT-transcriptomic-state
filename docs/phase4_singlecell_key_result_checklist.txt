@@ -1,0 +1,25 @@
+1. Single-cell dataset used: GSE116256 processed AML scRNA-seq tables
+2. Raw cell count: 76820
+3. Post-QC cell count: 76814
+4. Sample/patient count: 41 samples / 22 patients
+5. Healthy/control samples available: yes; sample_state includes healthy_BM
+6. Major annotated cell groups: T, Prog-like, Mono, Mono-like, cDC-like, NK, HSC-like, GMP-like, Prog, HSC, ProMono-like, CTL, lateEry, ProMono, Plasma, earlyEry, GMP, cDC, unannotated, B, ProB, pDC
+7. UCell/AUCell successful: no; packages unavailable, existing processed module-score table used
+8. Highest six-gene risk score cell group: Mono-like
+9. Highest PRFT score cell group: Plasma
+10. Highest proteostasis score cell group: Plasma
+11. Highest ferroptosis-tolerance score cell group: lateEry
+12. Highest JAK2/STAT5/PD-L1 score cell group: Mono
+13. Highest SLC7A11/GPX4-GSH score cell group: lateEry
+14. Highest immune checkpoint/myeloid suppressive score cell group: Mono-like
+15. LSC17/stemness consistency with PRFT-high-like cells: no; LSC17/stemness is not consistently higher in high-risk-like cells
+16. Main PRFT-high-like enriched cell groups: Mono-like, Mono, ProMono-like, cDC-like, cDC, ProMono
+17. Ro/E supports enrichment: yes; see phase4_RoE_enrichment.csv and phase4_RoE_heatmap.pdf
+18. Myeloid/monocytic reclustering completed: no; raw object/expression matrix absent and Seurat unavailable
+19. PRFT-high subcluster marker: not generated; no subcluster naming without reclustering evidence
+20. ScissorR successful: no; Scissor unavailable, bulk-risk-like fallback distribution table generated
+21. Single-cell result supports this wording: monocyte-like/myeloid stress-adapted PRFT-high state
+22. Figures suitable for main text: phase4_score_heatmap_by_celltype.pdf; phase4_PRFT_high_like_fraction_by_celltype.pdf; phase4_RoE_heatmap.pdf
+23. Figures suitable for supplementary material: phase4_QC_violin.pdf; phase4_score_violin_by_celltype.pdf; phase4_score_dotplot_by_celltype.pdf; unavailable-analysis status PDFs
+24. Recommend proceeding to alternative splicing analysis: yes, as an independent phase after confirming RNA-seq/SpliceSeq/MAJIQ inputs
+25. Issues needing manual confirmation: provide a complete Seurat object or 10x matrix if UMAP, UCell/AUCell, myeloid reclustering, and ScissorR should be rerun

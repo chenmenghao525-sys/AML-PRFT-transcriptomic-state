@@ -1,0 +1,20 @@
+1. Graphical abstract design brief generated: yes
+2. Graphical abstract prompt generated: yes
+3. Cover letter generated: yes
+4. Data availability generated: yes
+5. Code availability generated: yes
+6. README generated: yes
+7. Declarations template generated: yes
+8. Human Genomics checklist generated: yes
+9. Author confirmation table generated: yes
+10. Fixed six-gene model preserved: yes
+11. AS exclusion preserved: yes
+12. Processed single-cell boundary preserved: yes
+13. Bulk signature-based inference boundary preserved: yes
+14. BeatAML ex vivo association boundary preserved: yes
+15. Clinical recommendation avoided: yes
+16. Recommend entering final manuscript formatting: yes, after author metadata and repository fields are confirmed
+17. Recommend preparing submission: yes, after final visual QA and author confirmations
+18. Issues still requiring human confirmation: corresponding author details; author order and contributions; funding; competing interests; ethics/institutional wording; data/code repository URL/DOI/license; ORCID; optional reviewer suggestions; final figure visual approval
+19. Overall conclusion: Phase 10E generated the Human Genomics submission text package without adding analyses or changing the fixed PRFT model.
+20. Cover letter DOCX render QA: not completed; LibreOffice/soffice was not available to render DOCX to PNG/PDF in the current environment.

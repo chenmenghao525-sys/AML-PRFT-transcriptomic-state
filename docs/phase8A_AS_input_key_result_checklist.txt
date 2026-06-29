@@ -1,0 +1,15 @@
+1. PSI matrix found: no
+2. TCGA SpliceSeq file found: no
+3. AS event annotation found: no
+4. rMATS/MAJIQ/SUPPA results found: no
+5. Usable TCGA barcode found: no
+6. Can match PRFT risk_score: no
+7. Can match OS_time/OS_status: no
+8. Expected usable sample count: 0
+9. Expected usable AS event count: 0
+10. Recommend formal AS analysis: no
+11. If not recommended, reason: No usable PSI-level matrix was found in the local project package. No AS event annotation table was found. No rMATS/MAJIQ/SUPPA/Whippet result package was found. General TCGA gene-expression matrices can support splicing-factor expression only, but cannot substitute for PSI/event-level AS inputs.
+12. Recommend keeping AS module in manuscript: no
+13. Recommend deleting AS module from manuscript: yes
+14. Recommend entering Phase 9 full-manuscript integration: yes
+15. Manual confirmation needed: verify whether any TCGA SpliceSeq PSI package or external rMATS/MAJIQ/SUPPA result folder exists outside the current project snapshot; if not, keep AS fully out of the manuscript.

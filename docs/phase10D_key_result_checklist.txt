@@ -1,0 +1,20 @@
+1. Main figure panel source audit completed: yes
+2. Figure 1 generated: yes
+3. Figure 2 generated: yes
+4. Figure 3 generated: yes
+5. Figure 4 generated: yes
+6. Figure 5 generated: yes
+7. Figure 6 generated: yes
+8. Figure 7 generated: yes
+9. Final main figure legends generated: yes
+10. Supplementary figure plan generated: yes
+11. Supplementary table manifest generated: yes
+12. Figure-text consistency audit completed: yes
+13. Missing main figure panels detected: no
+14. Figure-text inconsistency detected: no; author metadata confirmation remains separate
+15. Placeholder figure entered main text: no
+16. AS result incorrectly entered: no
+17. Deconvolution overstatement detected: no
+18. Recommend entering graphical abstract and cover letter production: yes, after manual review of figure composites
+19. Recommend entering final Human Genomics formatting: yes, after author metadata and repository details are confirmed
+20. Issues requiring human confirmation: final visual approval of rasterized composites; author contributions; funding; competing interests; data/code repository; optional vector remake in Illustrator if required

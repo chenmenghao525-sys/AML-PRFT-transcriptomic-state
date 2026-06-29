@@ -1,0 +1,19 @@
+Phase 4-fix single-cell limitation statement
+
+A systematic local audit did not identify a matchable Seurat object, h5ad object, 10x matrix, count matrix with metadata, or metadata table containing UMAP/tSNE coordinates that can be linked to the processed module-score table.
+
+Therefore, the current single-cell module should be described as a processed-table-based cell-state enrichment analysis, not as a de novo Seurat single-cell reanalysis.
+
+Do not claim that UCell/AUCell scoring succeeded in Phase 4-fix. UCell, AUCell, Seurat, SeuratObject, and Scissor were not available in the current R environment, and no raw single-cell object/count matrix was available to recompute scores.
+
+Do not display UMAP localization panels for this phase. PCA panels or placeholder pages must not be described as UMAP.
+
+Main-text evidence that can be retained:
+- phase4_score_heatmap_by_celltype.pdf
+- phase4_PRFT_high_like_fraction_by_celltype.pdf
+- phase4_RoE_heatmap.pdf
+
+Supported wording:
+PRFT-high-like cells were associated with a monocyte-like/myeloid stress-adapted PRFT-high state.
+
+Avoid causal wording such as proved, mediated, activated, reversed, drives, or causes.

@@ -1,0 +1,18 @@
+1. Seurat object found: no
+2. h5ad object found: no
+3. 10x matrix found: no
+4. count matrix found: no
+5. metadata UMAP coordinates found: no
+6. UMAP celltype annotation generated: no
+7. UMAP PRFT score generated: no
+8. UCell successful: no
+9. AUCell successful: no
+10. myeloid/monocyte reclustering possible: no
+11. ScissorR possible: no
+12. If not possible, reason: no local Seurat object; no h5ad object; no complete 10x matrix/barcode/features set; no usable raw count matrix plus metadata; no metadata UMAP_1/UMAP_2 coordinates; Seurat/SeuratObject unavailable; Scissor unavailable
+13. Current Phase 4 suitable for main text: yes, as processed-table-based cell-state enrichment analysis only
+14. Recommended main-text figures: phase4_score_heatmap_by_celltype.pdf; phase4_PRFT_high_like_fraction_by_celltype.pdf; phase4_RoE_heatmap.pdf
+15. Recommended supplementary figures: phase4_QC_violin.pdf; phase4_score_violin_by_celltype.pdf; phase4_score_dotplot_by_celltype.pdf; Phase 4-fix limitation/audit tables
+16. Single-cell result supports this wording: monocyte-like/myeloid stress-adapted PRFT-high state
+17. Recommend entering AS analysis: yes, after confirming suitable RNA-seq/splicing input files
+18. Issues needing manual confirmation: provide a complete Seurat/h5ad/10x/count object with cell-level metadata and embeddings if true UMAP localization, UCell/AUCell rescoring, myeloid reclustering, or ScissorR mapping is required

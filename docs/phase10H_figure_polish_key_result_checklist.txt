@@ -1,0 +1,27 @@
+1. Simple v3 package generated: yes
+2. Author info inserted: yes
+3. Affiliation 3 postcode corrected to 550003: yes
+4. Figure source archive generated: yes
+5. Editable figure sources generated: yes
+6. Figure quality audit completed: yes
+7. Final main figure plan generated: yes
+8. Figure 1 polished: yes, redrawn as clean workflow/PRFT definition
+9. Figure 2 polished: yes, DEG/WGCNA panels preserved and repackaged
+10. Figure 3 polished: yes, signature construction panels preserved and repackaged
+11. Figure 4 polished: yes, prognostic/clinical panels preserved and repackaged
+12. Figure 5 polished: yes, ML/PPI panels preserved and repackaged
+13. Figure 6 polished: yes, bulk/processed single-cell panels preserved and repackaged
+14. Figure 7 redrawn/polished: yes, BeatAML plus bounded integrated model
+15. Old problematic Figure 7 removed from main: yes
+16. Supplementary figures organized: yes, missing/partial source groups needing manual review: 0
+17. Official manuscript generated: yes
+18. Teacher review manuscript generated: yes
+19. Cover letter updated: yes
+20. Declarations updated: yes
+21. Remaining missing figure sources: 0 supplementary source groups require manual review
+22. Figures needing major redraw: none detected after Figure 7 redraw; final visual QA still required
+23. Figures needing manual visual QA: Figure 1-7 and supplementary figures
+24. Data-core rework needed: no
+25. Can submit immediately: no
+26. Must complete before real submission: ORCID; Funding; competing interests; ethics wording; repository URL/DOI/license; final graphical abstract image; Word line/page numbering; final visual QA
+27. Overall conclusion: Human_Genomics_submission_simple_v3 was generated as a teacher-facing, source-preserving, figure-polished preview package. It is suitable for manual review but not direct journal upload until metadata and final visual QA are completed.

@@ -1,0 +1,17 @@
+1. Simple submission package generated: yes
+2. 1_Manuscript generated: yes
+3. 2_Cover_Letter generated: yes
+4. 3_Figures generated: yes
+5. 4_Supplementary_Materials generated: yes
+6. 5_Declarations generated: yes
+7. 6_Graphical_Abstract generated: yes
+8. README generated: yes
+9. Simple_Submission_Checklist generated: yes
+10. Missing main figures: 0
+11. Missing supplementary figures: 3
+12. Missing supplementary tables: 0
+13. Remaining author placeholders: 34
+14. Data-core rework needed: no
+15. Can submit immediately: no
+16. Must complete before real submission: author order/affiliations/ORCID; corresponding author; CRediT contributions; Funding; competing interests; ethics wording; repository URL/DOI/license; Figure 1-7 visual QA; final graphical abstract image
+17. Overall conclusion: A simplified Human Genomics submission preview package was generated for manual review. It is compact and teacher-facing, but not ready for direct upload until author and repository information plus visual QA are completed.

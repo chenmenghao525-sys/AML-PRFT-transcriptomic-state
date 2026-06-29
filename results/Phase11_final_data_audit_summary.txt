@@ -1,0 +1,7 @@
+Phase 11 final reaudit summary
+
+1. Data reaudit result: passed based on existing Phase 1-fix through Phase 10 outputs.
+2. Critical issues detected: no.
+3. Human Genomics submission logic remains supported: yes, with conservative wording.
+4. Content that must not be changed without new analysis: fixed six-gene formula; TCGA/GEO survival values; BeatAML AUC direction; processed single-cell boundary; AS exclusion; bulk signature-based inference; PPI network-level prioritization.
+5. Next step: manual figure assembly from the single-panel source package, followed by author confirmation of ORCID, funding, competing interests, ethics and repository information.

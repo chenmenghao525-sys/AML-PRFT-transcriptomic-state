@@ -1,0 +1,6 @@
+item,result,note
+patient_level_support_for_monocyte_myeloid_PRFT_high_enrichment,yes,Based on patient/sample pseudo-bulk Wilcoxon comparison
+mixed_model_support_for_cell_group_effect,yes,nlme::lme preferred; lm fallback if needed
+AML_vs_healthy_direction_consistency,available,Focused on monocyte/myeloid-related pseudo-bulk
+LSC17_supports_LSC_dominance,no,Current recommendation should stay conservative unless LSC17/stemness clearly supports primitive dominance
+recommended_final_wording,PRFT-high-like cells were associated with a monocyte-like/myeloid stress-adapted and immune-suppressive AML state.,Processed single-cell table-based analysis only

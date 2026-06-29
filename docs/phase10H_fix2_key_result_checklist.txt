@@ -1,0 +1,26 @@
+1. Simple v4 package generated: yes
+2. Author info inserted: yes
+3. Affiliation 3 postcode corrected to 550003: yes
+4. Source archive generated: yes
+5. Editable sources saved: yes
+6. Figure problem audit completed: yes
+7. Figure 1 enlarged/polished: yes
+8. Figure 2 enlarged/polished: yes
+9. Figure 3 enlarged/polished: yes
+10. Figure 4 enlarged/polished: yes
+11. Figure 5 enlarged/polished: yes
+12. Figure 6 enlarged/polished: yes
+13. Figure 7 converted to BeatAML-only: yes
+14. Old integrated model removed from Figure 7: yes
+15. Graphical abstract/integrated model generated separately: yes
+16. Figure legends updated: yes
+17. Official manuscript generated: yes
+18. Teacher review manuscript generated: yes
+19. Final figure quality audit generated: yes
+20. Figures still failing readability: none detected by script; manual visual QA still required
+21. Figures still needing major redraw: none after fix2
+22. Missing main figure sources: 0
+23. Data-core rework needed: no
+24. Can submit immediately: no
+25. Must complete before real submission: ORCID; Funding; competing interests; ethics wording; repository URL/DOI/license; final graphical abstract artwork approval; Word line/page numbering; final visual QA
+26. Overall conclusion: Human_Genomics_submission_simple_v4 was generated as a teacher-facing, source-preserving, enlarged figure-polished preview package. It is suitable for manual review but not direct journal upload until metadata and final visual QA are completed.

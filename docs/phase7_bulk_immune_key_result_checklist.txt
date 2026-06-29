@@ -1,0 +1,19 @@
+1. TCGA expression samples scored: 173
+2. GSE37642 expression samples scored: 136
+3. GSE12417 expression samples scored: 79
+4. combined GPL570 expression samples scored: 215
+5. Bulk signature scoring method: custom_rank_ssgsea_like (uniform across cohorts)
+6. Immune deconvolution packages available: none; fallback used
+7. Cross-cohort consistent bulk signatures: JAK_STAT_PDL1_set, cDC_like_set, immune_checkpoint_set, monocyte_macrophage_like_set, myeloid_suppressive_set, oxidative_stress_NRF2_set, phase3B_SHAP_core_axis_set, phase5_PPI_hub_set
+8. Cross-cohort consistent pathways: IFN_response_pathway, JAK_STAT_pathway, MYC_targets_pathway, PI3K_AKT_mTOR_pathway, TNF_NFKB_pathway, apoptosis_pathway, inflammatory_response_pathway, oxidative_stress_NRF2_pathway
+9. Monocyte/macrophage-like bulk signature consistency: yes
+10. Myeloid suppressive bulk signature consistency: yes
+11. Immune checkpoint bulk signature consistency: yes
+12. JAK/STAT pathway consistency: yes
+13. LSC/stemness supports dominant primitive interpretation: no
+14. BeatAML representative drugs retained for interpretation: 17-AAG (Tanespimycin), Bortezomib (Velcade), Panobinostat, Selumetinib (AZD6244), Venetoclax
+15. Recommended wording: PRFT-high AML was associated with an inferred monocyte-like / myeloid stress-adapted and immune-suppressive bulk transcriptional state.
+16. Main-text candidates: signature correlation heatmap, cross-cohort consistency panel, myeloid-state boxplots, pathway association bubbleplot.
+17. Supplementary candidates: full high/low signature boxplots, deconvolution fallback heatmap, full pathway heatmap, BeatAML pathway-drug heatmap.
+18. Consensus clustering: not run because ConsensusClusterPlus was unavailable locally and this step was optional.
+19. Suggested next step: yes, Phase 9 full-manuscript integration can proceed with conservative wording.

@@ -1,0 +1,20 @@
+1. sample flow audit completed: yes
+2. six-gene formula/risk_score audit completed: yes
+3. leakage/modeling audit completed: yes
+4. statistical value audit completed: yes
+5. BeatAML direction audit completed: yes
+6. single-cell/bulk boundary audit completed: yes
+7. AS exclusion audit completed: yes
+8. figure-text consistency audit completed: yes
+9. reproducibility/file integrity audit completed: yes
+10. final language boundary audit completed: yes
+11. rework priority matrix generated: yes
+12. Critical rework detected: no
+13. Critical issue count: 0
+14. Major rework detected: yes
+15. Major issue count: 3
+16. Support continuing the current Human Genomics manuscript writing: yes
+17. Recommend entering Phase 10A reference verification: yes
+18. Recommend entering final polishing and submission package preparation: yes, after references/figures/declarations are completed
+19. Most important human confirmations: references, DOI/PMID, author contributions, funding, competing interests, data/code repository, final figure composites.
+20. Overall conclusion: data core is reliable with no Critical rework detected; remaining issues are submission-readiness and figure/reference completion tasks.

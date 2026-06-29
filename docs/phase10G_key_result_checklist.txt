@@ -1,0 +1,22 @@
+1. Submission package folder generated: yes
+2. Title page generated: yes
+3. Manuscript DOCX generated: yes
+4. Manuscript TXT generated: yes
+5. Cover letter generated: yes
+6. Main figures copied: yes
+7. Supplementary figures organized: yes
+8. Supplementary tables organized: yes
+9. Graphical abstract folder generated: yes
+10. Declarations copied: yes
+11. Data/code availability copied: yes
+12. Repository README copied/generated: yes
+13. Submission readiness checklist generated: yes
+14. Submission package README generated: yes
+15. Remaining AUTHOR CONFIRMATION placeholders: 52
+16. Missing main figure files: 0
+17. Missing supplementary files: 0
+18. Missing supplementary tables: 0
+19. Data-core rework needed: no
+20. Can submit immediately: no
+21. Must fix before submission: author metadata; funding; competing interests; ethics wording; data/code repository URL/DOI/license; final graphical abstract image; line/page numbers; final visual QA of figures and supplementary figures
+22. Overall conclusion: Phase 10G generated a Human Genomics submission preview package for manual review. The data core is stable, but submission metadata and visual/formatting items remain before upload.

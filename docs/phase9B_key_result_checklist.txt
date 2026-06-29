@@ -1,0 +1,16 @@
+1. Full manuscript draft generated: yes
+2. Main Figure 1-7 assembly plan generated: yes
+3. Main figure legends generated: yes
+4. Supplementary material plan generated: yes
+5. Reference-needed list generated: yes
+6. Data availability draft generated: yes
+7. Code availability/README draft generated: yes
+8. Language boundary second audit passed: yes
+9. Forbidden term hit count: 0
+10. Fixed six-gene main model retained: yes
+11. AS module still deleted: yes
+12. Single-cell still limited to processed-table-based analysis: yes
+13. Bulk immune still limited to signature-based inference: yes
+14. BeatAML still limited to ex vivo association: yes
+15. Recommend proceeding to reference verification and formal submission package assembly: yes
+16. Human confirmation needed: author list/contributions, funding, competing interests, repository/accessions, final figure composites, cover letter, graphical abstract, references.

@@ -1,0 +1,93 @@
+# GitHub-side Git Status Record
+
+Generated: 2026-06-29 15:35:35
+
+Repository path: E:\ai助手\AML_PRFT_Human_Genomics_public_repo_candidate_v2
+
+## git_status_short_branch
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_branch_current
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_remote_v
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_log_last
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_rev_parse_head
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_upstream_name
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_upstream_hash
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```
+
+## git_ahead_behind
+exit_code: 128
+stdout:
+```
+
+```
+stderr:
+```
+fatal: not a git repository (or any of the parent directories): .git
+```

@@ -1,0 +1,11 @@
+﻿check_item,status,risk_level,finding,action_recommended
+git_repository_present,fail,high,Specified local repo directory is not a Git repository; .git not found.,Run QA from actual cloned Git repository or initialize/push v2 candidate before DOI/URL decision.
+git_status_clean,fail,high,False,Resolve Git working tree/sync state.
+branch_main,fail,high,False,confirm branch main
+remote_origin_private_repo,fail,high,False,confirm origin points to AML-PRFT-Human-Genomics
+pushed_to_remote,fail,high,False,push/verify remote sync from actual Git clone
+v2_QA_files_present,pass,low,True,retain v2 QA files
+key_file_presence,pass,low,True,restore missing key files
+risk_scan_blocking,pass,low,0 blocking public-content hits,no action
+README_manifest_check,pass,low,0 high-risk README/manifest hits,no action
+final_conclusion,fail_github_side_QA,high,fail_github_side_QA,Do not enter DOI/URL decision until Git repository sync can be verified.

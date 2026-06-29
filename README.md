@@ -14,13 +14,13 @@ No Zenodo DOI has been minted at this stage. No GitHub release is required for t
 
 - `code/`: analysis and packaging scripts retained for traceability. Scripts are provided for review and reuse, but the repository does not promise one-command full reproduction from raw public repositories.
 - `docs/`: project notes and submission-support documentation retained for traceability.
-- `figures/final/`: final key figure files retained for repository traceability.
-- `figures/main/`: final main Figure 3-Figure 6 files retained from the public candidate package.
-- `figures/supplementary_figures/`: supplementary figure support files retained for S1-S8; retired supplementary figure candidates are excluded from the public working tree.
+- `figures/final/`: compatibility copy of final Figure 1-Figure 7 files copied from the final upload package.
+- `figures/main/`: final main figures copied from the final upload package (`Figure 1.pdf` through `Figure 7.pdf`, with PNG backups where available).
+- `figures/supplementary_figures/`: final supplementary figures copied from the final upload package (`Supplementary Figure S1.pdf` through `Supplementary Figure S8.pdf`, with PNG backups where available).
 - `metadata/`: repository manifests, data dictionary, code manifest, and locked Formula A metadata.
 - `metadata/formula_A/`: locked six-gene Formula A coefficients and formula notes.
 - `results/`: derived result tables needed for reproducibility checks and manuscript traceability.
-- `supplementary_tables/`: Supplementary Tables S1-S15. Supplementary Table S10 is a valid table and is retained.
+- `supplementary_tables/`: final Supplementary Tables S1-S15 copied from the final upload package. Supplementary Table S10 and Supplementary Table S15 are valid tables and are retained.
 
 ## Scientific boundaries
 

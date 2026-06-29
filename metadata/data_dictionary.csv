@@ -1,6 +1,6 @@
 file_path,file_type,description,path_status
-figures/final/Figure_2_final_manual_assembled_no_title_v3.pdf,pdf,figure support file,repository_relative
-figures/final/Figure_7_final_manual_assembled_no_title_v2.pdf,pdf,figure support file,repository_relative
+figures/main/Figure 2.pdf,pdf,figure support file,repository_relative
+figures/main/Figure 7.pdf,pdf,figure support file,repository_relative
 figures/final/Supplementary_Figure_S1_final_manual_assembled.pdf,pdf,figure support file,repository_relative
 figures/main/Figure3_final.pdf,pdf,figure support file,repository_relative
 figures/main/Figure3_final.png,png,figure support file,repository_relative
@@ -24,27 +24,27 @@ figures/supplementary/phase3C_BeatAML_drug_correlation_volcano.pdf,pdf,figure su
 figures/supplementary/phase3C_BeatAML_drug_correlation_volcano__2.pdf,pdf,figure support file,repository_relative
 figures/supplementary/phase4_score_heatmap_by_celltype.pdf,pdf,figure support file,repository_relative
 figures/supplementary/phase4_score_heatmap_by_celltype__2.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S1_final_manual_assembled.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S2.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S3__phase2b_calibration_model2_1_3_5year.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S3__phase2b_DCA_3year_publication.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S3__phase2b_forestplot_all_models_publication.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S3__phase2b_nomogram_model2_publication.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S4__phase3A_fix_external_validation_bubbleplot.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S4__phase3A_fix_model_performance_heatmap.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S4__phase3A_fix_top20_model_ranking.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S5__phase3A_PPI_external_validation_comparison.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S5__phase3A_PPI_vs_original_6gene_comparison.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S6__phase5_cytoHubba_like_ranking_heatmap.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S6__phase5_PPI_hub_overlap_barplot.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S6__phase5_PPI_network.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S7__phase3C_BeatAML_drug_category_heatmap.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S7__phase3C_BeatAML_selected_drug_scatterplots.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S7__phase3C_drug_response_ML_performance_heatmap.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S8__phase4_RoE_heatmap.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S8__phase4_score_heatmap_by_celltype.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S8__phase4b_patient_level_score_boxplots.pdf,pdf,figure support file,repository_relative
-figures/supplementary_figures/Supplementary_Figure_S8__phase4b_PRFT_high_like_fraction_patient_level.pdf,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
+figures/supplementary_figures/Supplementary Figure S1-S8 final upload-package files,pdf,figure support file,repository_relative
 metadata/formula_A/LOCKED_PRFT_six_gene_formula_A.txt,txt,locked Formula A metadata,repository_relative
 metadata/formula_A/LOCKED_PRFT_six_gene_formula_A__dup2.txt,txt,locked Formula A metadata,repository_relative
 metadata/formula_A/LOCKED_PRFT_six_gene_formula_A_coefficients.csv,csv,locked Formula A metadata,repository_relative

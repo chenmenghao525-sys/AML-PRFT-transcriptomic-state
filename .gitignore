@@ -15,3 +15,7 @@ metadata/github_side_QA/
 metadata/github_side_QA_postpush/
 metadata/pre_github_QA_v2/
 07_internal_QA_records_do_not_upload/
+metadata/replaced_old_github_files_backup_do_not_upload/
+*.public_release_path_backup
+*.public_release_pdf_backup
+*.public_release_pdf_backup2

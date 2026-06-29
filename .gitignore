@@ -1,0 +1,17 @@
+# Local and OS artifacts
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.temp
+
+# R session/cache artifacts
+.RData
+.Rhistory
+.Rproj.user/
+
+# Internal QA outputs should stay outside public repository
+metadata/github_side_QA/
+metadata/github_side_QA_postpush/
+metadata/pre_github_QA_v2/
+07_internal_QA_records_do_not_upload/

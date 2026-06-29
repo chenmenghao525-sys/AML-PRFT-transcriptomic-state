@@ -12,14 +12,24 @@ dir.create("13_figures", recursive = TRUE, showWarnings = FALSE)
 dir.create("14_tables", recursive = TRUE, showWarnings = FALSE)
 dir.create("16_logs", recursive = TRUE, showWarnings = FALSE)
 
-signature_coef <- c(
-  CLCN5 = 0.173648449374872,
-  ARHGEF5 = 0.111478186920327,
-  ITGB2 = 0.0880551644913224,
-  TRIM32 = 0.0769414649524249,
-  SAT1 = 0.0625527693302055,
-  ACOX2 = 0.0216843732127065
+# Formula A is locked and must not be manually changed.
+coef_candidates <- c(
+  "metadata/formula_A/LOCKED_PRFT_six_gene_formula_A_coefficients.csv",
+  "../metadata/formula_A/LOCKED_PRFT_six_gene_formula_A_coefficients.csv",
+  "metadata/formula_A/six_gene_coefficients.csv",
+  "../metadata/formula_A/six_gene_coefficients.csv"
 )
+coef_path <- coef_candidates[file.exists(coef_candidates)][1]
+if (is.na(coef_path) || length(coef_path) == 0) {
+  stop("locked Formula A coefficient metadata not found. Checked: ", paste(coef_candidates, collapse = "; "))
+}
+coef_dt <- data.table::fread(coef_path)
+expected_signature_genes <- c("CLCN5", "ARHGEF5", "TRIM32", "ITGB2", "SAT1", "ACOX2")
+missing_signature_genes <- setdiff(expected_signature_genes, coef_dt$gene_symbol)
+if (length(missing_signature_genes) > 0) {
+  stop("Locked Formula A coefficient metadata missing genes: ", paste(missing_signature_genes, collapse = ", "))
+}
+signature_coef <- stats::setNames(coef_dt$coefficient, coef_dt$gene_symbol)[expected_signature_genes]
 
 save_session_info <- function(path) {
   writeLines(capture.output(sessionInfo()), con = path)

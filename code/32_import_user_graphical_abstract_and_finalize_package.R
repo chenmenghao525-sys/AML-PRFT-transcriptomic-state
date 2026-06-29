@@ -1,8 +1,7 @@
 ## Import the author-provided graphical abstract into the Human Genomics package.
 ## This script does not run any statistical analysis or modify any model result.
 
-base_dir <- "E:/ai助手"
-package_dir <- file.path(base_dir, "Human_Genomics_PRFT_AML_submission_package")
+package_dir <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
 source_png <- file.path(package_dir, "graphical_abstract.png")
 ga_dir <- file.path(package_dir, "graphical_abstract")
 

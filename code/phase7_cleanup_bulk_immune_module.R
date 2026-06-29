@@ -3,7 +3,7 @@
 options(stringsAsFactors = FALSE)
 set.seed(1234)
 
-phase_lib <- Sys.getenv("PHASE1_ASCII_R_LIB", unset = "C:/Users/ROBIN-~1/AppData/Local/Temp/phase1_R_libs")
+phase_lib <- Sys.getenv("PHASE1_ASCII_R_LIB", unset = "phase1_R_libs; local path removed")
 if (dir.exists(phase_lib)) {
   .libPaths(unique(c(phase_lib, .libPaths())))
 }
@@ -14,7 +14,7 @@ suppressPackageStartupMessages({
   library(patchwork)
 })
 
-root <- Sys.getenv("PHASE7_ROOT", unset = "C:/Users/Robin-Yang/AppData/Local/Temp/aml_prft_phase1_fix")
+root <- Sys.getenv("PHASE7_ROOT", unset = "aml_prft_phase1_fix; local path removed")
 setwd(root)
 
 dir.create("03_results_tables", showWarnings = FALSE, recursive = TRUE)

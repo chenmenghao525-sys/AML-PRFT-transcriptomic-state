@@ -25,7 +25,7 @@ write_block <- function(text_lines) {
 
 ascii_lib <- Sys.getenv("PHASE1_ASCII_R_LIB", unset = "")
 if (!nzchar(ascii_lib)) {
-  default_ascii_lib <- "C:/Users/ROBIN-~1/AppData/Local/Temp/phase1_R_libs"
+  default_ascii_lib <- "phase1_R_libs; local path removed"
   if (dir.exists(default_ascii_lib)) {
     ascii_lib <- default_ascii_lib
   }

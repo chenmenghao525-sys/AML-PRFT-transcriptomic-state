@@ -3,7 +3,7 @@
 options(stringsAsFactors = FALSE)
 set.seed(1234)
 
-ascii_default_lib <- "C:/Users/Robin-Yang/AppData/Local/Temp/phase1_R_libs"
+ascii_default_lib <- "phase1_R_libs; local path removed"
 ascii_env_lib <- Sys.getenv("PHASE1_ASCII_R_LIB", unset = "")
 lib_candidates <- unique(c(ascii_env_lib, ascii_default_lib))
 lib_candidates <- lib_candidates[nzchar(lib_candidates) & dir.exists(lib_candidates)]

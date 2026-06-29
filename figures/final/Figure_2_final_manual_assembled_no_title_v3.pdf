@@ -126,7 +126,7 @@
                <rdf:li rdf:parseType="Resource">
                   <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
                   <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>E:\aiåŠ©æ‰‹\AML_PRFT_Human_Genomics_phase0_audit\figure_panel_exports_for_manual_assembly\accepted_panels\F2B2_TCGA_timeROC_ACCEPTED.pdf</stRef:filePath>
+                     <stRef:filePath>local_path_removed                                                                                                                      </stRef:filePath>
                      <stRef:documentID>0</stRef:documentID>
                      <stRef:instanceID>0</stRef:instanceID>
                   </stMfs:reference>
@@ -134,7 +134,7 @@
                <rdf:li rdf:parseType="Resource">
                   <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
                   <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>E:\aiåŠ©æ‰‹\AML_PRFT_Human_Genomics_phase0_audit\figure_panel_exports_for_manual_assembly\accepted_panels\TCGA_LAML_KM_label_reposition_redraw_ACCEPTED.pdf</stRef:filePath>
+                     <stRef:filePath>local_path_removed                                                                                                                                         </stRef:filePath>
                      <stRef:documentID>0</stRef:documentID>
                      <stRef:instanceID>0</stRef:instanceID>
                   </stMfs:reference>
@@ -248,15 +248,15 @@ endstreamendobj36 0 obj<</LastModified(D:20260629120418+09'00')/Private 38 0 
 %!PS-Adobe-3.0 
 %%Creator: Adobe Illustrator(R) 24.0
 %%AI8_CreatorVersion: 29.4.0
-%%For: (Robin-Yang) ()
+%%For: (AuthorAnon) ()
 %%Title: (Figure_2_final_manual_assembled_no_title.ai)
 %%CreationDate: 6/29/2026 12:04 PM
 %%Canvassize: 16383
 %%BoundingBox: 14 21 497 660
 %%HiResBoundingBox: 14.1732211375802 21.2598418485468 496.062984917107 659.055099557703
 %%DocumentProcessColors: Cyan Magenta Yellow Black
-%%DocumentFiles:E:\aiÖúÊÖ\AML_PRFT_Human_Genomics_phase0_audit\figure_panel_exports_for_manual_assembly\accepted_panels\F2B2_TCGA_timeROC_ACCEPTED.pdf
-%%+E:\aiÖúÊÖ\AML_PRFT_Human_Genomics_phase0_audit\figure_panel_exports_for_manual_assembly\accepted_panels\TCGA_LAML_KM_label_reposition_redraw_ACCEPTED.pdf
+%%DocumentFiles:local_path_removed                                                                                                                    
+%%+local_path_removed                                                                                                                                       
 %AI5_FileFormat 14.0
 %AI12_BuildNumber: 152
 %AI3_ColorUsage: Color

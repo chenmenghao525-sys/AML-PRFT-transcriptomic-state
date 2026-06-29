@@ -4,11 +4,11 @@ This repository provides the research-use code, derived result tables, locked mo
 
 ## Repository status
 
-This repository is prepared for private reviewer/editor access or public release after author confirmation. It is not a clinical decision-support tool and does not provide treatment recommendations.
+This repository is the public research repository supporting the manuscript entitled "A proteostasis-associated ferroptosis-tolerance transcriptomic state in acute myeloid leukemia is associated with adverse prognosis, myeloid immune programs and ex vivo pharmacogenomic patterns". It provides analysis scripts, locked model metadata, derived result tables, figure-supporting summaries, supplementary-table support files, and repository manifests for transparency and reviewer access. It is not a clinical decision-support tool and does not provide treatment recommendations.
 
 Project repository: https://github.com/chenmenghao525-sys/AML-PRFT-Human-Genomics
 
-No Zenodo DOI or GitHub release has been created in this working copy.
+No Zenodo DOI has been minted at this stage. No GitHub release is required for this repository state.
 
 ## Contents
 
@@ -38,4 +38,12 @@ Processed result tables, locked model metadata, figure-supporting summaries, and
 
 ## License status
 
-A conservative license note is included for review. A formal public license should be confirmed by the authors before changing repository visibility or archiving the repository.
+A conservative license note is included for review. The repository is intended for research transparency and reproducibility support. The license note should be reviewed by the authors before any archival DOI workflow.
+
+
+Public-release boundaries:
+
+- No patient-level identifiable information is included.
+- No raw controlled-access clinical data are redistributed.
+- The repository is intended for research transparency and reproducibility support.
+- No Zenodo DOI has been minted at this stage.

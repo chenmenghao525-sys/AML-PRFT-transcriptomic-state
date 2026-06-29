@@ -1,0 +1,2 @@
+﻿file_path,risk_item,status,risk_level,evidence,action_recommended
+repository,all requested public-release checks,pass,low,Scanned 215 files; no blocking residuals detected,commit and push

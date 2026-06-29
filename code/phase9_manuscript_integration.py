@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt, RGBColor
 
 
-ROOT = Path(os.environ.get("PHASE9_ROOT", r"C:/Users/Robin-Yang/AppData/Local/Temp/aml_prft_phase1_fix"))
+ROOT = Path(os.environ.get("PHASE9_ROOT", r"aml_prft_phase1_fix; local path removed"))
 TABLE_DIR = ROOT / "03_results_tables"
 FIG_DIR = ROOT / "04_figures"
 LOG_DIR = ROOT / "05_logs"

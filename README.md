@@ -4,7 +4,7 @@ This repository provides the research-use code, derived result tables, locked mo
 
 ## Repository status
 
-This repository is the public research repository supporting the manuscript entitled "A proteostasis-associated ferroptosis-tolerance transcriptomic state in acute myeloid leukemia is associated with adverse prognosis, myeloid immune programs and ex vivo pharmacogenomic patterns". It provides analysis scripts, locked model metadata, derived result tables, figure-supporting summaries, supplementary-table support files, and repository manifests for transparency and reviewer access. It is not a clinical decision-support tool and does not provide treatment recommendations.
+This repository is the public research repository supporting the manuscript entitled "A proteostasis-associated ferroptosis-tolerance transcriptomic state links adverse prognosis, myeloid-associated programs, and pharmacogenomic patterns in acute myeloid leukemia". It provides analysis scripts, locked model metadata, derived result tables, figure-supporting summaries, supplementary-table support files, and repository manifests for transparency and reviewer access. It is not a clinical decision-support tool and does not provide treatment recommendations.
 
 Project repository: https://github.com/chenmenghao525-sys/AML-PRFT-Human-Genomics
 

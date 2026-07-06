@@ -12,7 +12,7 @@ This repository is not a clinical decision-support tool. It does not provide tre
 
 Project repository: https://github.com/chenmenghao525-sys/AML-PRFT-transcriptomic-state
 
-Zenodo archive: https://doi.org/10.5281/zenodo.21214731
+Zenodo archive: https://doi.org/10.5281/zenodo.21223578
 
 ## Contents
 

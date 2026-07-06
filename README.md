@@ -12,7 +12,7 @@ This repository is not a clinical decision-support tool. It does not provide tre
 
 Project repository: https://github.com/chenmenghao525-sys/AML-PRFT-transcriptomic-state
 
-Zenodo archive: DOI to be added after the v1.0.0 release is archived.
+Zenodo archive: https://doi.org/10.5281/zenodo.21214731
 
 ## Contents
 
@@ -32,3 +32,6 @@ The locked model is Formula A only:
 
 ```text
 CLCN5, ARHGEF5, TRIM32, ITGB2, SAT1, ACOX2
+```
+
+The locked Formula A coefficients and formula notes are provided in `metadata/formula_A/`. The Formula A gene order and coefficients should not be replaced by machine-learning ranking outputs, PPI-derived feature strategies, pharmacogenomic analyses, or processed single-cell table outputs.
